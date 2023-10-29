@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
+  </head>
+  <body class="d-flex flex-column vh-100 justify-content-between">
+    <header class="">
+      <nav class="navbar bg-secondary">
+        <div class="container-fluid justify-content-around">
+          <a href="#" class="navbar-brand text-light">TodayBuy.com</a>
+          <form class="d-flex align-items-center justify-content-end w-50">
+            <i class="fa-solid fa-bars fs-3 text-light mx-3"></i>
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search for products..."
+              aria-label="Search"
+            />
+            <i class="fa-solid fa-magnifying-glass position-absolute m-2"></i>
+          </form>
+          <i class="fa-solid fa-cart-shopping text-light fs-3"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-5">
+      <div class="row">
+        <div class="bg-light text-dark rounded-3 px-3 py-2 mx-auto col-7 col-sm-9 col-md-7 col-lg-5 cart">
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>Subtotal</span><span id="subtotal">$0.00</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>Tax</span><span id="tax">$0.00</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>Shipping</span><span id="shipping">$0.00</span>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <span>Total</span><span id="total">$0.00</span>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </main>
+    <footer class="bg-secondary text-white">
+      <div class="container p-4">
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque
+          ea quis molestias. Fugiat pariatur maxime quis culpa corporis vitae
+          repudiandae aliquam voluptatem veniam, est atque cumque eum delectus
+          sint!
+        </p>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

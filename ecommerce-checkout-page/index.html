@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="page__name">
+        <h1>Checkout Page</h1>
+      </div>
+      <div class="products__info">
+        <p>My Cart (<span>3</span> Products)</p>
+        <div id="change-products">
+          <button id="add-new">Add product</button>
+          <button id="delete">Empty cart</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="products">
+        <div class="product" id="default-product">
+          <div class="product--photo">
+            <img src="assets/default-product-image.png" alt="product photo" />
+          </div>
+          <div class="product--info-container">
+            <div class="product--info">
+              <p class="product-name">Product Name</p>
+              <p class="product-price">
+                <span class="after-discount"
+                  ><span class="discounted">1000</span>$</span
+                >
+                <span class="before-discount"
+                  ><span class="price">1200</span>$</span
+                >
+              </p>
+              <div class="product-quantity">
+                <i class="fa-solid fa-minus"></i>
+                <p class="quantity">1</p>
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-trash-can"></i>
+              </div>
+            </div>
+            <div class="product--total-price">
+              <p style="opacity: 0.6; padding-bottom: 5px">Total</p>
+              <p><span class="product-total">1000</span>$</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="products--total-summary">
+        <div class="selected-products">
+          <div class="info">
+            <p>Products Total</p>
+            <p><span id="products-price">0.00</span>$</p>
+          </div>
+          <div class="tax-info">
+            <div class="shipping info">
+              <p>Shipping</p>
+              <p><span id="shipping">0.00</span>$</p>
+            </div>
+            <div class="tax info">
+              <p>Tax %18</p>
+              <p><span id="tax">0.00</span>$</p>
+            </div>
+            <div class="total info">
+              <p>Total</p>
+              <p><span id="total">0.00</span>$</p>
+            </div>
+          </div>
+          <button id="finish-order">Finish Order</button>
+        </div>
+      </aside>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>

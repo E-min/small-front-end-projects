@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>IOS Claculator</title>
+  </head>
+  <body>
+    <section class="calculator">
+      <div class="display">
+        <input id="helper-display" type="text"  disabled>
+        <input id="main-display" type="text" disabled>
+      </div>
+    <div class="container-buttons">
+      <input type="button" class="buttons grey reset" value="AC">
+      <input type="button" class="buttons grey function" value="±">
+      <input type="button" class="buttons grey function" value="%">
+      <input type="button" class="buttons orange arithmetic" value="/">
+      <input type="button" class="buttons number" value="7">
+      <input type="button" class="buttons number" value="8">
+      <input type="button" class="buttons number" value="9">
+      <input type="button" class="buttons orange arithmetic" value="X" id="multi">
+      <input type="button" class="buttons number" value="4">
+      <input type="button" class="buttons number" value="5">
+      <input type="button" class="buttons number" value="6">
+      <input type="button" class="buttons orange arithmetic" value="-">
+      <input type="button" class="buttons number" value="1">
+      <input type="button" class="buttons number" value="2">
+      <input type="button" class="buttons number" value="3">
+      <input type="button" class="buttons orange arithmetic" value="+">
+      <input type="button" class="buttons number zero" value="0">
+      <input type="button" class="buttons number" value=".">
+      <input type="button" class="buttons function" value="=">
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/decimal.js/9.0.0/decimal.min.js" integrity="sha512-zPQm8HS4Phjo9pUbbk+HPH3rSWu5H03NFvBpPf6D9EU2xasj0ZxhYAc/lvv/HVDWMSE1Autj19i6nZOfiVQbFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+  </body>
+</html>

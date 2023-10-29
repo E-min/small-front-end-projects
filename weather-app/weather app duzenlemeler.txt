@@ -1,0 +1,5 @@
+-hava durumu aciklamalari tasiyordu container uzunlugu arttirldi ve yazi ortalandi.
+-konum isaretine margin right eklendi.
+-kartlari local storage ekleme ve silebilme ozelligi eklendi.
+-ayni sehir verisi aratildiginda var ise uyari vermesi saglandi.
+-hata ekrani yapildi.
